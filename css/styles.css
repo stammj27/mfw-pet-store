@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Satisfy&display=swap');
+.logo {
+    width: 90px;
+}
+header h1 {
+    color: #c9c983;
+    font-family: "Satisfy", cursive;
+    margin-top: 20px;
+}
+li {
+    margin-top: 20px;
+    color:
+}
+.nav-pills>li>a {
+    color: #000
+}
+.product {
+    background-color: #eeddcd;
+    border-radius: 5%;
+    border: 1px solid #000;
+    padding: 0.5em;
+}
+.nav-pills>li.active>a {
+    color:#5c433f;
+    background-color: #eeddcd;
+}
+.nav-pills>li.active>a:hover,
+.nav-pills>li>a:hover,
+footer a:hover {
+    background-color: #edf1f4;
+    color: #5c433f;
+}
+nav li {
+    font-size: 15px;
+}
+li a {
+    color:#5c433f;
+    border: 1px solid;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+a:hover {
+    text-decoration: none;
+
+}
+nav {
+    top: 20px;
+}
+.jumbotron {
+    background-image: url(../img/hero.jpg);
+    background-size:cover;
+    background-position:center;
+    height: 450px;
+}
+.jumbo {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    color: #FFF;
+}
+.featured{
+    margin-bottom: 60px;
+}
+.product button {
+    margin-bottom: 10px;
+    background-color: #FFF;
+    border: 1px solid #5c433f;
+}
+aside a,
+footer {
+    background-color: #eeddcd;
+}
+footer {
+    padding-top: 20px;
+    max-height: 100%;
+}
+footer a {
+    color: #5c433f;
+
+}
+.contact_info {
+    padding-top: 15px;
+    padding-left: 40px;
+    border-right: 1px solid #333;
+    border-left: 1px solid #333;
+}
+.social {
+    padding-top: 15px;
+}
+
+footer .fine_print {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+
+@media (max-width: 512px)
+nav {
+    top: -10px;
+}
