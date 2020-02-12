@@ -20,10 +20,7 @@ li {
     border: 1px solid #000;
     padding: 0.5em;
 }
-.nav-pills>li.active>a {
-    color:#5c433f;
-    background-color: #eeddcd;
-}
+
 .nav-pills>li.active>a:hover,
 .nav-pills>li>a:hover,
 footer a:hover {
@@ -38,6 +35,10 @@ li a {
     border: 1px solid;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
+}
+.nav-pills>li.active>a {
+    color:#5c433f;
+    background-color: #eeddcd;
 }
 a:hover {
     text-decoration: none;
@@ -94,7 +95,16 @@ footer .fine_print {
 }
 
 
+@media (max-width: 768px) {
+    .centered {CONTENt}
+    nav {CONTENT}
+    .social{CONTENT}
+    aside {CONTENT}
+}
+
 @media (max-width: 512px)
 nav {
     top: -10px;
 }
+
+@media (max-width: 768px)
